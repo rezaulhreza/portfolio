@@ -4,7 +4,7 @@ import React, { Component } from 'react';
     render() {
         return (
             <div>
-              <h1>Home</h1>  
+              <h1>Landing Page</h1>  
             </div>
         )
     }
