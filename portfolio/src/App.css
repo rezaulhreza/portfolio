@@ -39,6 +39,7 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
   font-size: 12px;
   word-spacing: 2px;
 }
+
 .FrontEnd{
   border-right: 2px solid #c31432;
   border-left:  2px solid #c31432;
@@ -46,4 +47,10 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
   border-bottom: 2px solid #320f4b;
   padding-right: 1em;
   padding: 1em ;
+}
+@media screen and (max-width: 1024px){
+  .mdl-layout__drawer-button {
+    margin: 4px;
+    color: white;
+}
 }
