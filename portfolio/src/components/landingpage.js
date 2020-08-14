@@ -22,16 +22,19 @@ import {Grid, Cell} from 'react-mdl';
                 <p><i class="fab fa-react"></i> React</p>
                 <p><i class="fab fa-react"></i> React Native</p>
                 <p><i class="fab fa-node-js"></i> NodeJS</p>
+                <p>React Redux</p>
                 </div>
                 <div className="FrontEnd">
                 <p><i class="fas fa-code-branch"></i> Firebase</p>
                 <p><i class="fas fa-code-branch"></i> Heroku</p>
                 <p><i class="fab fa-cpanel"></i> cPanel</p>
+                <p>MongoDB</p>
                 </div>
                 <div className="FrontEnd">
                 <p><i class="fas fa-database"></i> Oracle SQL</p>
                 <p><i class="fab fa-java"></i> Java</p>
                 <p><i class="fab fa-python"></i> Python- Flask</p>
+                <p>Python- Django</p>
                 </div>
                 </div>
                 <div className="Social-links">
