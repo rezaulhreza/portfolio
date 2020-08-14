@@ -19,5 +19,31 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  
+}
+.banner-text h1{
+  font-size: 60px;
+  font-weight: bold;
   color: white;
+  text-align: center;
+}
+.landing-skills{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+.landing-skills p{
+  color: rgba(204, 204, 204, 0.699);
+  font-size: 12px;
+  word-spacing: 2px;
+}
+.FrontEnd{
+  border-right: 2px solid #c31432;
+  border-left:  2px solid #c31432;
+  border-top: 2px solid #320f4b;
+  border-bottom: 2px solid #320f4b;
+  padding-right: 1em;
+  padding: 1em ;
 }

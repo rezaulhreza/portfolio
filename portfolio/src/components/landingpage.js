@@ -10,8 +10,31 @@ import {Grid, Cell} from 'react-mdl';
                    alt="avatar" className="avatar-img"/>
                 </Cell>
                 <div className="banner-text">
-                <h1>Full Stack Developer</h1>
+                <h1>Full Stack Web Developer</h1>
+                <div className="landing-skills">
+                <div className="FrontEnd">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
                 </div>
+                <div className="FrontEnd">
+                <p>React</p>
+                <p>React Native</p>
+                <p>NodeJS</p>
+                </div>
+                <div className="FrontEnd">
+                <p>Firebase</p>
+                <p>Heroku</p>
+                <p>cPanel</p>
+                </div>
+                <div className="FrontEnd">
+                <p>Oracle SQL</p>
+                <p>Java</p>
+                <p>Flask</p>
+                </div>
+                </div>
+                </div>
+
 
               </Grid>
             </div>
