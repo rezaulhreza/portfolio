@@ -4,11 +4,15 @@ import {Grid, Cell} from 'react-mdl';
     render() {
         return (
             <div style={{width:'100%', margin:'auto'}}>
-              <Grid ClassName='LandingPageGrid'>
-              <Cell col={12}>
-              <img src="https://w7.pngwing.com/pngs/446/548/png-transparent-web-development-organization-world-wide-web-icon-men-s-avatar-white-child-face.png"
-              alt="avatar" className="avatar-img/>
-              </Cell>
+              <Grid className="landing-grid">
+                <Cell col={12}>
+                 <img src="https://cdn4.iconfinder.com/data/icons/set-of-avatars-flat-icon/128/man6-512.png" 
+                   alt="avatar" className="avatar-img"/>
+                </Cell>
+                <div className="banner-text">
+                <h1>Full Stack Developer</h1>
+                </div>
+
               </Grid>
             </div>
         )
