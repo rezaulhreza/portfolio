@@ -1,11 +1,10 @@
 .header-color{
   background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+  background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #240b36,#ad122ce5, #27091f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
 .landing-grid{
   text-align: center;
-
   top: 0;
   left: 0;
   width: 100%;
@@ -21,10 +20,15 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
 .banner-text{
   background-color: #240b36;
   opacity: .8;
-  width: 75%;
+  width: 80%;
   margin: auto;
   border-radius: 10px;
-  
+  padding: 2rem;
+}
+@media screen and (max-width: 500px){
+  .banner-text{
+    width: 100%;
+  }
 }
 .banner-text h1{
   font-size: 60px;
@@ -44,6 +48,9 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
   font-size: 12px;
   word-spacing: 2px;
 }
+.landing-skills i{
+  color: #c31432;
+}
 
 .FrontEnd{
   border-right: 2px solid #c31432;
@@ -53,9 +60,16 @@ background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, 
   padding-right: 1em;
   padding: 1em ;
 }
-@media screen and (max-width: 1024px){
-.mdl-layout__drawer-button {
-    margin: 4px;
-    color: white;
+
+.social-links{
+ display: flex;
+ width: 50%;
+ padding: 5px;
+ margin: auto;
+ justify-content: space-between;
+ background-color: transparent;
 }
+.social-links a{
+  color: white;
+  font-size: 5rem;
 }
